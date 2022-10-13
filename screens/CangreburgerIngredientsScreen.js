@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import styles from '../styles/HomeScreenStyle';
 
 export default function CangreburgerIngredients({navigation, route}) {
-  // let ingredient = route.params.ingredient  
-  // console.log(route)
+  let ingredient = route.params.ingredient  
+  console.log(route)
   return (
       <View style={styles.container}>
         <Text style={styles.texto}>Welcome to Krusty Krab!!</Text>
